@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  color: "white"
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: "white"
+}
+
+.ulList {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+  width: 40%;
+  padding: 1%;
+  text-align: center;
+  font-size: 100%;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  background-color: rgb(125, 125, 125);
+}
+
+button:active {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+}
+
+.checItp {
+  position: absolute;
+  left: 0;
+}
+
+.textInSpan {
+  padding-left: 20px;
+}
+
+.liInUl {
+  position: relative;
+  overflow-wrap: break-word;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width:100%;
+  display:inline-block;
+  padding:1.5%;
+  margin-bottom:3%;
+  color:white;
+}
